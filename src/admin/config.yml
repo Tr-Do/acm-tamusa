@@ -1,0 +1,5 @@
+# src/admin/config.yml
+backend: test-repo
+media_folder: "src/img"
+public_folder: "/img"
+collections: []
