@@ -3,98 +3,98 @@
         "name": "Brandon Earwood",
         "role": "Faculty Advisor",
         "email": "bearwood@tamusa.edu",
-        "img": "/img/team/jaguar_head.webp",
-        "img2": "/img/team/jaguar_head.webp"
+        "img": "../img/jaguar_head.webp",
+        "img2": "../img/jaguar_head.webp"
     },
     {
         "name": "Julian Spindola",
         "role": "President",
         "email": "jspin01@jaguar.tamu.edu",
-        "img": "/img/team/president.webp",
-        "img2": "/img/team/president_1.webp"
+        "img": "../img/team/president.webp",
+        "img2": "../img/team/president_1.webp"
     },
     {
         "name": "Mariana Lozano",
         "role": "Vice President",
         "email": "mloza019@jaguar.tamu.edu",
-        "img": "/img/team/vp.webp",
-        "img2": "/img/team/vp_1.webp"
+        "img": "../img/team/vp.webp",
+        "img2": "../img/team/vp_1.webp"
     },
     {
         "name": "N/A",
         "role": "Secretary",
         "email": "N/A",
-        "img": "/img/team/jaguar_head.webp",
-        "img2": "/img/team/jaguar_head.webp"
+        "img": "../img/team/jaguar_head.webp",
+        "img2": "../img/team/jaguar_head.webp"
     },
     {
         "name": "Hugo Padilla",
         "role": "Treasurer",
         "email": "hpadi02@jaguar.tamu.edu",
-        "img": "/img/team/treasurer.webp",
-        "img2": "/img/team/treasurer_1.webp"
+        "img": "../img/team/treasurer.webp",
+        "img2": "../img/team/treasurer_1.webp"
     },
     {
         "name": "Alexis Parson",
         "role": "Compliance/Constitution Officer",
         "email": "apars03@jaguar.tamu.edu",
-        "img": "/img/team/compliance.webp",
-        "img2": "/img/team/compliance_1.webp"
+        "img": "../img/team/compliance.webp",
+        "img2": "../img/team/compliance_1.webp"
     },
     {
         "name": "Trieu Do",
         "role": "Director of Operations",
         "email": "tdo02@jaguar.tamu.edu",
-        "img": "/img/team/operation.webp",
-        "img2": "/img/team/operation_1.webp"
+        "img": "../img/team/operation.webp",
+        "img2": "../img/team/operation_1.webp"
     },
     {
         "name": "Liliana Martinez",
         "role": "Fundraising Director",
         "email": "lmart0151@jaguar.tamu.edu",
-        "img": "/img/team/fundraising.webp",
-        "img2": "/img/team/fundraising_1.webp"
+        "img": "../img/team/fundraising.webp",
+        "img2": "../img/team/fundraising_1.webp"
     },
     {
         "name": "Kevin Hernandez",
         "role": "Marketing Officer",
         "email": "khern0110@jaguar.tamu.edu",
-        "img": "/img/team/marketing1.webp",
-        "img2": "/img/team/marketing1_1.webp"
+        "img": "../img/team/marketing1.webp",
+        "img2": "../img/team/marketing1_1.webp"
     },
     {
         "name": "Eric Gerner",
         "role": "Marketing Officer",
         "email": "egern01@jaguar.tamu.edu",
-        "img": "/img/team/marketing2.webp",
-        "img2": "/img/team/marketing2_1.webp"
+        "img": "../img/team/marketing2.webp",
+        "img2": "../img/team/marketing2_1.webp"
     },
     {
         "name": "Lorenzo Sosa",
         "role": "Outreach Coordinator",
         "email": "lsosa08@jaguar.tamu.edu",
-        "img": "/img/team/outreach.webp",
-        "img2": "/img/team/outreach_1.webp"
+        "img": "../img/team/outreach.webp",
+        "img2": "../img/team/outreach_1.webp"
     },
     {
         "name": "Hawaau Adisa",
         "role": "Recruitment Retention Officer",
         "email": "hadis01@jaguar.tamu.edu",
-        "img": "/img/team/recruitment.webp",
-        "img2": "/img/team/recruitment_1.webp"
+        "img": "../img/team/recruitment.webp",
+        "img2": "../img/team/recruitment_1.webp"
     },
     {
         "name": "Aby Babu Alappat",
         "role": "Risk Management Officer",
         "email": "a01@jaguar.tamu.edu",
-        "img": "/img/team/riskmng.webp",
-        "img2": "/img/team/riskmng_1.webp"
+        "img": "../img/team/riskmng.webp",
+        "img2": "../img/team/riskmng_1.webp"
     },
     {
         "name": "Isabel Villarreal",
         "role": "Travel Coordinator",
         "email": "ivill018@jaguar.tamu.edu",
-        "img": "/img/team/travel.webp",
-        "img2": "/img/team/travel_1.webp"
+        "img": "../img/team/travel.webp",
+        "img2": "../img/team/travel_1.webp"
     }
 ]

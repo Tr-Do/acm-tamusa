@@ -1,0 +1,38 @@
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-self: start;
+}
+
+.box {
+    margin: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #00a2ff32;
+}
+
+.box h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+@media(min-width: 800px) {
+    .box {
+        margin: 5rem;
+        padding: 3rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .grid-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .box {
+        margin: 3rem;
+    }
+}

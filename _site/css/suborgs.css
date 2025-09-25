@@ -1,0 +1,22 @@
+.suborg-img-container {
+    max-width: 600px;
+}
+
+.suborg-img-container img {
+    width: 100%;
+    box-shadow: 3px 3px #fff;
+    border-radius: 5px;
+}
+
+/* .suborg-socials {
+    padding: 0.3rem 1rem;
+    background-color: #00a2ff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suborg-socials a {
+    margin: 0.25rem 0.5rem;
+} */

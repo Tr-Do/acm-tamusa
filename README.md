@@ -30,8 +30,9 @@ To view this project, it is recommended to use [Visual Studio Code](https://code
 
 1. Clone this project onto your local machine
 2. In the repo directory, type this command
-npm run build
-npm serve
+```rm -rf node_modules package-lock.json```
+```npm install```
+```npm start```
 3. On the web browser, go to http://localhost:3000
 
 You should now be able to view the website. 
@@ -39,11 +40,12 @@ You should now be able to view the website.
 ## Contributing
 If you would like to contribute to this project, please refer to the repository's [contributing guide]().
 ### Contributors
-<a href="https://github.com/LiliMartinez23/acm/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=LiliMartinez23/acm" />
+<a href="https://github.com/Tr-Do/acm-tamusa/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Tr-Do/acm-tamusa" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
+
 ## Contact
 **Repository Owner/Website Lead** - Lili Martinez <br /> Email - [lmart0151@jaguar.tamu.edu](mailto:lmart0151@jaguar.tamu.edu)
 

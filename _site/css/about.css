@@ -1,0 +1,17 @@
+.about-img-container {
+    max-width: 600px;
+}
+
+.about-img-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px #00a2ff;
+    border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+    .about-content {
+        height: auto;
+        width: 100%;
+    }
+}

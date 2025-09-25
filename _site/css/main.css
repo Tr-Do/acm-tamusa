@@ -1,0 +1,127 @@
+@import url('nav.css');
+@import url('about.css');
+@import url('grid.css');
+@import url('suborgs.css');
+@import url('resource.css');
+@import url('footer.css');
+@import url('team.css');
+@import url('news.css');
+@import url('calendar.overrides.css');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+b {
+    color: #74ccff;
+}
+
+li {
+    color: #fff;
+}
+
+.hero {
+    height: 600px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    background-image: url('../img/hero.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    backdrop-filter: blur(5px);
+    max-width: 90%;
+}
+
+.useful-links a {
+    margin-left: 0.25rem;
+    margin: 0.25rem;
+}
+
+.resource-links a {
+    margin-left: 0.25rem;
+    margin: 0.25rem;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 325px;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #00a2ff;
+    border: solid 1px #00a2ff;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: solid 1px #00a2ff;
+    color: #00a2ff;
+    transform: scale(1.02);
+}
+
+.btn-outline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 325px;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    color: #00a2ff;
+    background-color: transparent;
+    border: solid 1px #00a2ff;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background-color: #00a2ff;
+    border: solid 1px #00a2ff;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 545px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .btn {
+        width: 300px;
+    }
+}

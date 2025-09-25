@@ -1,0 +1,12 @@
+.text-center img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.offcanvas-body img {
+    border-radius: 0;
+    width: 100%;
+    height: auto
+}
