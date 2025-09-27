@@ -11,7 +11,7 @@ module.exports = async function (eleventyConfig) {
     eleventyConfig.addNunjucksShortcode("year", () => `${new Date().getFullYear()}`);
 
     return {
-        pathPrefix: process.env.NODE_ENV === "production" ? "/acm-tamusa/" : "/",
+        pathPrefix: process.env.ELEVENTY_ENV === "production" ? "/acm-tamusa/" : "/",
         dir: { input: "src", output: "_site", includes: "_includes" }
     };
 };
