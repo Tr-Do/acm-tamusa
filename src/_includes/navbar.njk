@@ -18,19 +18,11 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <a class="nav-link active" aria-current="page" href="{{ '/' | url }}">
-=======
-                        <a class="nav-link active" aria-current="page" href="{{relativePrefix}}">
->>>>>>> 8f03bbe (relative prefix)
-=======
-                        <a class="nav-link active" aria-current="page" href="{{pathPrefix}}">
->>>>>>> 36f59b0 (pathPrefix)
-                            Home <span class="visually-hidden">(current)</span>
+                        <a class="nav-link active" aria-current="page" href="{{ pathPrefix | default('/') }}">Home<span
+                                class="visually-hidden">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="{{pathPrefix}}team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ pathPrefix | default('/') }}team/">Team</a></li>
                     <li class=" nav-item"><a class="nav-link" href="#">JagHacks</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"

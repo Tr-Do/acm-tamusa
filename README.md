@@ -30,9 +30,13 @@ To view this project, it is recommended to use [Visual Studio Code](https://code
 
 1. Clone this project onto your local machine
 2. In the repo directory, type this command
+
 ```rm -rf node_modules package-lock.json```
+
 ```npm install```
+
 ```npm start```
+
 3. On the web browser, go to http://localhost:3000
 
 You should now be able to view the website. 
