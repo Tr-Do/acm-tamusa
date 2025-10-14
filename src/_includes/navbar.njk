@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
     <div class="container-fluid d-flex flex-row justify-content-between align-items-center flex-nowrap gap-5 ">
 
-        <a class="navbar-brand" href="{{ '/' | url }}">
+        <a class="navbar-brand" href="{{ "/" | htmlBaseUrl }}">
             <img src="{{relativePrefix }}img/acm-logo-transparent.webp" alt="acm-logo">
         </a>
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOffcanvas"
@@ -18,11 +18,11 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ pathPrefix | default('/') }}">Home<span
+                        <a class="nav-link active" aria-current="page" href="{{ "/" | htmlBaseUrl }}">Home<span
                                 class="visually-hidden">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="{{ pathPrefix | default('/') }}team/">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ "/team/" | htmlBaseUrl }}team/">Team</a></li>
                     <li class=" nav-item"><a class="nav-link" href="#">JagHacks</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
