@@ -3,4 +3,3 @@ baseurl: ""
 url: ""
 plugins: []
 markdown: kramdown
-YML
