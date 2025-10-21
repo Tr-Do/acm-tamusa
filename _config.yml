@@ -1,9 +1,6 @@
-title: acm-tamusa
-timezone: UTC
+title: acm-jekyll
+baseurl: ""
+url: ""
+plugins: []
 markdown: kramdown
-collections:
-  posts:
-    output: true
-title: acm-tamusa
-url: https://Tr-Do.github.io       
-baseurl: /acm-tamusa               
+YML
