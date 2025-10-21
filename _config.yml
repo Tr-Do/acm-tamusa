@@ -5,5 +5,5 @@ collections:
   posts:
     output: true
 title: acm-tamusa
-url: https://Tr-Do.github.io        # no trailing slash
-baseurl: /acm-tamusa                      # repo name, with leading slash
+url: https://Tr-Do.github.io       
+baseurl: /acm-tamusa               
