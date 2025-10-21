@@ -1,0 +1,6 @@
+title: acm-tamusa
+timezone: UTC
+markdown: kramdown
+collections:
+  posts:
+    output: true
