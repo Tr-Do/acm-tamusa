@@ -6,7 +6,6 @@
 @import url('footer.css');
 @import url('team.css');
 @import url('news.css');
-@import url('calendar.overrides.css');
 
 body {
     font-family: 'Poppins', sans-serif;
