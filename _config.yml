@@ -4,3 +4,6 @@ markdown: kramdown
 collections:
   posts:
     output: true
+title: acm-tamusa
+url: https://Tr-Do.github.io        # no trailing slash
+baseurl: /acm-tamusa                      # repo name, with leading slash
