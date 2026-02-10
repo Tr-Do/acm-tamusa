@@ -1,5 +1,5 @@
 title: acm-jekyll
-baseurl: ""
-url: ""
+baseurl: "/acm-tamusa"
+url: "https://tr-do.github.io/"
 plugins: []
 markdown: kramdown
