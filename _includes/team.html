@@ -4,8 +4,9 @@
         <div class="col-12 col-sm-6 col-md-4">
             <div class="member position-relative text-center">
                 {% assign n = "offcanvasRight-" | append: forloop.index %}
-                <img src="{{i.img}}" alt="{{i.name}}" class="rounded-circle team-img" fetchpriority="high" type="button"
-                    data-bs-toggle="offcanvas" data-bs-target="#{{n}}" aria-controls="#{{n}}">
+                <img src="{{i.img | relative_url}}" alt="{{i.name}}" class="rounded-circle team-img"
+                    fetchpriority="high" type="button" data-bs-toggle="offcanvas" data-bs-target="#{{n}}"
+                    aria-controls="#{{n}}">
                 <h2 class=" h4 text-white mt-3 mb-1">{{i.name}}</h2>
                 <p class="text-secondary mb-1">{{i.role}}</p>
                 <a href="mailto:{{i.email}}">{{i.email}}</a>
@@ -17,7 +18,7 @@
                             aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <img src="{{i.img2}}" alt="">
+                        <img src="{{i.img2 | relative_url}}" alt="">
                     </div>
                 </div>
             </div>
