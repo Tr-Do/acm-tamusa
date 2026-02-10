@@ -3,19 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env ELEVENTY_ENV=development eleventy --serve",
-    "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve --livereload"
+    "start": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "cross-env": "^10.0.0"
-  },
   "dependencies": {
     "vanilla-calendar-pro": "^3.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
   }
 }
